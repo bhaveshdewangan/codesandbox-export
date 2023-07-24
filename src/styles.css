@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.checked {
+  color: red;
+}
+
+/* Custom styles for the review list */
+.review-list {
+  background-color: #f5f5f5;
+  padding: 16px;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.avatar-wrapper {
+  margin-right: 16px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment {
+  margin-top: 8px;
+}
